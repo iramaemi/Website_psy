@@ -5,26 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ирина Винокурова — Онлайн психолог</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 601px)">
-    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 600px)">
+    <link id="layout-css" rel="stylesheet" href="css/desktop.css">
     <script>
-        function scaleLayout() {
+        function setLayout() {
             const currentWidth = window.innerWidth;
             const wrapper = document.querySelector('.body-wrapper');
-            if (!wrapper) return;
+            const cssLink = document.getElementById('layout-css');
             
             if (currentWidth <= 600) {
-                const baseWidth = 318;
-                const scale = currentWidth / baseWidth;
-                wrapper.style.zoom = scale;
+                cssLink.href = 'css/mobile.css';
+                if (wrapper) {
+                    const baseWidth = 318;
+                    const scale = currentWidth / baseWidth;
+                    wrapper.style.zoom = scale;
+                }
             } else {
-                const baseWidth = 990;
-                const scale = currentWidth / baseWidth;
-                wrapper.style.zoom = scale;
+                cssLink.href = 'css/desktop.css';
+                if (wrapper) {
+                    const baseWidth = 990;
+                    const scale = currentWidth / baseWidth;
+                    wrapper.style.zoom = scale;
+                }
             }
         }
-        window.addEventListener('resize', scaleLayout);
-        window.addEventListener('load', scaleLayout);
+        window.addEventListener('resize', setLayout);
+        window.addEventListener('load', setLayout);
     </script>
 </head>
 <body>
