@@ -302,15 +302,15 @@
 
 .about-circle-medium {
   position: absolute;
-  left: 61.32px;
-  top: 447.82px;
+  left: 50.08px;
+  top: 429.82px;
   width: 63.36px;
   height: 63.36px;
 }
 
 .about-circle-big {
   position: absolute;
-  left: 130.8px;
+  left: 104px;
   top: 434.8px;
   width: 86.4px;
   height: 86.4px;
@@ -318,7 +318,7 @@
 
 .about-circle-small {
   position: absolute;
-  left: 220.8px;
+  left: 179.2px;
   top: 472.3px;
   width: 50.4px;
   height: 50.4px;
@@ -334,34 +334,38 @@
 }
 
 .about-circle-label-1 {
-  left: 93px;
-  top: 479.5px;
+  left: 81.76px;
+  top: 461.5px;
 }
 .about-circle-label-2 {
-  left: 174px;
+  left: 147px;
   top: 478px;
 }
 .about-circle-label-3 {
-  left: 246px;
+  left: 204.4px;
   top: 497.5px;
   text-align: center;
   line-height: 1.33;
   font-size: 8.64px;
 }
-  height: 720px;
+  position: relative;
+  top: 538px;
+  height: 538px;
 }
 
 .requests-title {
   position: absolute;
-  top: 963px;
+  top: 0px;
   left: 9px;
+  display: inline-block;
+  width: fit-content;
   font-size: 27px;
   line-height: 1.15;
 }
 
 .requests-photo {
   position: absolute;
-  top: 1026px;
+  top: 63px;
   left: 9px;
   right: 9px;
   height: 297px;
@@ -377,7 +381,7 @@
 
 .requests-plane {
   position: absolute;
-  top: 1008px;
+  top: 45px;
   left: 9px;
   width: 297px;
   height: 297px;
@@ -395,11 +399,11 @@
 }
 
 .requests-list-if {
-  top: 1332px;
+  top: 369px;
 }
 
 .requests-list-help {
-  top: 1494px;
+  top: 531px;
 }
 
 .requests-list-title {
@@ -432,12 +436,14 @@
 
 /* ==================== СЕКЦИЯ 4: КАК РАБОТАЮ ==================== */
 .section-approach {
-  height: 900px;
+  position: relative;
+  top: 1076px;
+  height: 538px;
 }
 
 .approach-frame {
   position: absolute;
-  top: 1548px;
+  top: 0px;
   left: 9px;
   width: 234px;
   height: 342px;
@@ -447,7 +453,7 @@
 
 .approach-title {
   position: absolute;
-  top: 1413px;
+  top: 0px;
   left: 9px;
   font-size: 27px;
   line-height: 1.15;
@@ -463,20 +469,20 @@
 }
 
 .approach-text-1 {
-  top: 1458px;
+  top: 45px;
 }
 
 .approach-text-2 {
-  top: 1548px;
+  top: 135px;
 }
 
 .approach-text-3 {
-  top: 1638px;
+  top: 225px;
 }
 
 .approach-pills {
   position: absolute;
-  top: 1728px;
+  top: 315px;
   left: 9px;
   display: flex;
   flex-wrap: wrap;
@@ -496,7 +502,7 @@
 .approach-circle-small {
   position: absolute;
   left: 18px;
-  bottom: 72px;
+  top: 376px;
   width: 72px;
   height: 72px;
 }
@@ -504,7 +510,7 @@
 .approach-circle-big {
   position: absolute;
   left: 42px;
-  bottom: 18px;
+  top: 430px;
   width: 108px;
   height: 108px;
 }
@@ -512,7 +518,7 @@
 .approach-circle-medium {
   position: absolute;
   left: 112.5px;
-  bottom: 54px;
+  top: 394px;
   width: 54px;
   height: 54px;
 }
@@ -520,7 +526,7 @@
 .approach-photo {
   position: absolute;
   left: 27px;
-  top: 1656px;
+  top: 342px;
   width: 162px;
   height: 162px;
   border-radius: 18px;
