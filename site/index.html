@@ -5,15 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ирина Винокурова — Онлайн психолог</title>
     <link rel="stylesheet" href="css/style.css">
-    <link id="layout-css" rel="stylesheet" href="css/desktop.css">
-    <script>
-        function setLayout() {
-            const cssLink = document.getElementById('layout-css');
-            cssLink.href = 'css/mobile.css';
-        }
-        window.addEventListener('resize', setLayout);
-        window.addEventListener('load', setLayout);
-    </script>
+    <link rel="stylesheet" href="css/mobile.css" media="(max-width: 989px)">
+    <link rel="stylesheet" href="css/desktop.css" media="(min-width: 990px)">
 </head>
 <body>
     <div class="body-wrapper">
@@ -94,14 +87,14 @@
                 <div class="about-line about-line-4"></div>
 
                 <div class="about-photo">
-                    <img src="assets/images/hand_mobile.png" alt="">
+                    <img src="assets/images/hand.png" alt="">
                 </div>
             </section>
 
             <!-- ==================== СЕКЦИЯ 3: ВАШИ ЗАПРОСЫ ==================== -->
             <section class="section section-requests" id="requests">
                 <div class="requests-photo">
-                    <img src="assets/images/sky_mobile2.png" alt="">
+                    <img src="assets/images/sky.png" alt="">
                 </div>
                 <img src="assets/images/plane.png" alt="" class="requests-plane">
 
