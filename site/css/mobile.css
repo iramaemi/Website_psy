@@ -104,6 +104,7 @@
   width: 12.6px;
   height: auto;
   vertical-align: middle;
+  transform: translateY(-2.85px);
 }
 
 .dashed-circle-big {
@@ -126,7 +127,7 @@
 .btn-circle {
   position: absolute;
   left: 9px;
-  bottom: 261px;
+  bottom: 273.5px;
   width: 86px;
   height: 86px;
   background: var(--pink);
@@ -457,7 +458,7 @@
 
 .approach-frame {
   position: absolute;
-  top: 241px;
+  top: 239px;
   left: 10px;
   right: 10px;
   height: 200px;
@@ -492,7 +493,7 @@
 }
 
 .approach-text-3 {
-  top: 251px;
+  top: 249px;
   left: 20px;
   right: auto;
   width: 185px;
@@ -527,7 +528,7 @@
 .approach-circle-small {
   position: absolute;
   left: 57px;
-  top: 334px;
+  top: 332px;
   width: 72px;
   height: 72px;
 }
@@ -535,7 +536,7 @@
 .approach-circle-big {
   position: absolute;
   left: 109px;
-  top: 324.5px;
+  top: 322.5px;
   width: 108px;
   height: 108px;
 }
@@ -543,7 +544,7 @@
 .approach-circle-medium {
   position: absolute;
   left: 216px;
-  top: 251px;
+  top: 249px;
   width: 54px;
   height: 54px;
 }
@@ -551,7 +552,8 @@
 .approach-photo {
   position: absolute;
   right: 6px;
-  top: 278px;
+  top: 276px;
+  width: 135px;
   height: 162px;
   border-radius: 18px;
   overflow: hidden;
@@ -664,12 +666,12 @@
 
 .booking-circle-left {
   left: 18px;
-  top: 135px;
+  top: 142px;
 }
 
 .booking-circle-right {
   left: 18px;
-  top: 225px;
+  top: 218px;
 }
 
 .booking-circle-svg {
