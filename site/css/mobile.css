@@ -508,8 +508,10 @@
   top: 395.6px;
   left: 9px;
   right: 9px;
+  height: 73.5px;
   display: flex;
   flex-wrap: wrap;
+  align-content: flex-start;
   gap: 6px;
   z-index: 2;
 }
@@ -519,10 +521,11 @@
   color: var(--text-white);
   font-family: 'AA Stetica', sans-serif;
   font-size: 11px;
-  line-height: normal;
+  line-height: 12.5px;
   padding: 4px 12px;
   border-radius: 18px;
   text-align: center;
+  white-space: nowrap;
 }
 
 .approach-circle-small {
